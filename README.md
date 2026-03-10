@@ -185,12 +185,12 @@ Potential improvements include:
 
 ---
 
-## Author
-
-Shikhar Sourabh
-
----
-
 ## Web App Demo
 
 ![App Screenshot](demo.png)
+
+---
+
+## Author
+
+Shikhar Sourabh
