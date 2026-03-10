@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="confusion_matrix.png" width="600">
+</p>
+
+# Diabetic Retinopathy Detection using Deep Learning
 # Diabetic Retinopathy Detection using Deep Learning
 
 A deep learning project that detects **diabetic retinopathy** from retinal fundus images using convolutional neural networks and transfer learning.
