@@ -135,6 +135,8 @@ Run:
 
 model1.ipynb
 
+--- 
+
 ##Live Demo
 
 Try the deployed web app here:
