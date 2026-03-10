@@ -141,3 +141,8 @@ model1.ipynb
 
 Try the deployed web app here:
 https://huggingface.co/spaces/Shikhar-code/diabetic-retinopathy-detection
+---
+
+## Web App Demo
+
+![App Screenshot](demo.png)
