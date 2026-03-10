@@ -137,10 +137,22 @@ model1.ipynb
 
 --- 
 
+## Deployment
+
+The model is deployed as an interactive web application using:
+
+- Gradio
+- Hugging Face Spaces
+
+Users can upload a retinal fundus image and the model predicts the stage of diabetic retinopathy.
+
+---
+
 ## Live Demo
 
 Try the deployed web app here:
 https://huggingface.co/spaces/Shikhar-code/diabetic-retinopathy-detection
+
 ---
 
 ## Web App Demo
