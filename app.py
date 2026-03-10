@@ -29,6 +29,12 @@ demo = gr.Interface(
     outputs=gr.Label(num_top_classes=5),
     title="Diabetic Retinopathy Detection",
     description="Upload a retinal fundus image and the model will predict the stage of diabetic retinopathy.",
+    examples=[
+        ["example1.png"],
+        ["example2.png"],
+        ["example3.png"]
+    ]
 )
 
 demo.launch()
+
