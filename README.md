@@ -35,6 +35,16 @@ The dataset contains retinal images classified into 5 stages:
 
 ---
 
+## Project Pipeline
+
+1. Retinal fundus images are loaded and preprocessed.
+2. Images are resized to 224×224 resolution.
+3. A pretrained EfficientNetB0 model extracts visual features.
+4. A classification layer predicts the stage of diabetic retinopathy.
+5. The model is deployed through a web application where users can upload images.
+
+---
+
 ## Models Implemented
 
 ### 1. Baseline CNN
@@ -66,6 +76,15 @@ Techniques used:
 ![Confusion Matrix](confusion_matrix.png)
 
 The confusion matrix shows strong performance for **No_DR and Moderate classes**, while minority classes such as **Severe and Proliferate_DR** are harder to classify due to dataset imbalance.
+
+---
+
+## Model Performance
+
+The model performs best on the **No_DR** and **Moderate** classes due to higher dataset representation.  
+Minority classes such as **Severe** and **Proliferate_DR** are more difficult to classify because of class imbalance.
+
+Overall validation accuracy: **~78%**
 
 ---
 
@@ -152,6 +171,23 @@ Users can upload a retinal fundus image and the model predicts the stage of diab
 
 Try the deployed web app here:
 https://huggingface.co/spaces/Shikhar-code/diabetic-retinopathy-detection
+
+---
+
+## Future Improvements
+
+Potential improvements include:
+
+- Handling class imbalance using class weights
+- Applying Grad-CAM to visualize model attention
+- Training with larger retinal datasets
+- Exploring deeper architectures such as EfficientNetB3
+
+---
+
+## Author
+
+Shikhar Sourabh
 
 ---
 
