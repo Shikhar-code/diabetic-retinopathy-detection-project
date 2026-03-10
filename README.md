@@ -27,6 +27,10 @@ EfficientNetB0 | 78.4% |
 - Classification Report
 - Precision / Recall / F1 Score
 
+## Confusion Matrix
+
+![Confusion Matrix](confusion_matrix.png)
+
 ## Technologies Used
 
 - Python
